@@ -23,7 +23,6 @@ typedef struct {
 } SqList;
 
 
-// 初始化线性空表L
 /**
  * [init 初始化线性空表L]
  * @param  L [线性表L指针]
@@ -137,7 +136,7 @@ int locate(SqList *L, ElemType x){
 }
 
 /**
- * [traverse 遍历输出所有元素]
+ * [traverse 遍历输出所有元素值]
  * @param L [线性表L指针]
  */
 void traverse(SqList *L){
@@ -178,7 +177,7 @@ void clear(SqList *L){
 }
 
 /**
- * [destroy 将线性销毁，释放内存。]
+ * [destroy 将线性表销毁，释放内存。]
  * @param L [线性表L指针]
  */
 void destroy(SqList *L){
