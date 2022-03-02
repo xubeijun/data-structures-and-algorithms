@@ -4,6 +4,13 @@ English | [简体中文](README-CN.md)
 Data structure and algorithm.
 
 
+## [Linear List Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/linear-list)
+
+Problem  | Solution
+--      | ----------
+ Algorithm implementation of sequential storage structure [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [baike](https://baike.baidu.com/item/%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/1347176) | [sequential-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-storage-structure.c)
+
+
 ## [Dynamic Programming Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/dynamic-programming)
 
 Problem  | Solution

@@ -3,6 +3,14 @@
 <h1 align="center">data-structures-and-algorithms</h1>
 数据结构及算法。
 
+
+## [线性表问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/linear-list)
+
+问题  | 解决
+--      | ----------
+ 顺序存储结构的算法实现 [维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [百度百科](https://baike.baidu.com/item/%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/1347176) | [sequential-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-storage-structure.c)
+
+
 ## [动态规划问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/dynamic-programming)
 
 问题  | 解决
