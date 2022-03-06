@@ -17,7 +17,7 @@ the contiguous subarray with the largest sum is [4, −1, 2, 1], with sum 6.
 
 #include <stdio.h>
 
-int MaxSubseqSum(const int A[],int N)
+int maxSubSum(const int A[],int N)
 {
     int ThisSum,MaxSum,i;
     ThisSum = MaxSum = 0;
@@ -36,7 +36,7 @@ int main(){
     int sequence[] = {-2,1,-3,4,-1,2,1,-5,4};
     int n;
     n = sizeof(sequence) / sizeof(sequence[0]);
-    int maxSum = MaxSubseqSum(sequence,n);
-    printf("MaxSubseqSum= %d \n", maxSum);
+    int maxSum = maxSubSum(sequence,n);
+    printf("maxSubSum= %d \n", maxSum);
     return 0;
 }

@@ -16,6 +16,7 @@ Problem  | Solution
 Problem  | Solution
 --      | ----------
  Maximum subarray problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [baike](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [maximum-subarray-problem.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/maximum-subarray-problem.c)
+01-complexity Maximum subsequence sum [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [baike](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c)
 
 ## Follow me
 Follow my Weibo, WeChat Official Account **续杯君** for more information.

@@ -16,6 +16,7 @@
 问题  | 解决
 --      | ----------
  最大子数列问题 [维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [百度百科](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [maximum-subarray-problem.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/maximum-subarray-problem.c)
+ 01-复杂度2 最大子列和问题 [维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [百度百科](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c)
 
 ## 关注
 关注同名微博、公众号**续杯君**，获得更多资讯。
