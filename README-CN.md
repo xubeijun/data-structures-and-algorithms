@@ -25,4 +25,4 @@ Problem  | Solution
  二分查找首次出现 [wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) [baike](https://baike.baidu.com/item/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/10628618) | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/search/first-appearance-binary-search.c)
 
 ## 关注
-关注同名微博、公众号**续杯君**，获得更多资讯。
+关注同名[微博](https://weibo.com/xubeijun)、公众号、[哔哩哔哩](https://space.bilibili.com/490987374/)**续杯君**，获得更多资讯。

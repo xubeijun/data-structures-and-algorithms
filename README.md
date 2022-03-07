@@ -25,4 +25,4 @@ Problem  | Solution
  First appearance binary search [wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) [baike](https://baike.baidu.com/item/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/10628618) | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/search/first-appearance-binary-search.c)
 
 ## Follow me
-Follow my Weibo, WeChat Official Account **续杯君** for more information.
+Subscribe my [Weibo](https://weibo.com/xubeijun), WeChat, [Bilibili](https://space.bilibili.com/490987374/), Official Account **续杯君** for more information.
