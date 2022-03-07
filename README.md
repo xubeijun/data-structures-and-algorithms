@@ -18,5 +18,11 @@ Problem  | Solution
  Maximum subarray problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [baike](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [maximum-subarray-problem.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/maximum-subarray-problem.c)
 01-complexity Maximum subsequence sum [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [baike](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c)
 
+## [Sort and Search Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/search)
+
+Problem  | Solution
+--      | ----------
+ First appearance binary search [wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) [baike](https://baike.baidu.com/item/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/10628618) | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/search/first-appearance-binary-search.c)
+
 ## Follow me
 Follow my Weibo, WeChat Official Account **续杯君** for more information.
