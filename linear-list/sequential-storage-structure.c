@@ -5,7 +5,7 @@
 线性表的顺序存储结构是指用一段地址连续的存储单元依次存储线性表的数据元素。
 
 《数据结构-入门指南》 - xubeijun/续杯君
-[第1节 线性表是什么 - 线性表的顺序存储结构](https://www.xubeijun.com/column/data-structures/data-structures-start-guide/chapter-003/section-001/what-is-linear-list)
+[第1节 线性表是什么 - 顺序存储结构的实现](https://www.xubeijun.com/column/data-structures/data-structures-start-guide/chapter-003/section-001/what-is-linear-list)
 */
 
 #include <stdio.h>
