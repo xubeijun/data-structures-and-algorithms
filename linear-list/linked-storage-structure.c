@@ -269,13 +269,13 @@ void clear(DblList L){
  * @param L [指向链表L指针的指针]
  */
 void destroy(DblList *L){
-    DblList p,t;
+    DblList p,s;
 
     p = (*L)->next;
     while(p){
-        t = p->next;
+        s = p->next;
         free(p);
-        p = t;
+        p = s;
     }
     free(*L);
 }
