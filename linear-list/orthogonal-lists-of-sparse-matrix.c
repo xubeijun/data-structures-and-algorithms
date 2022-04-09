@@ -435,7 +435,6 @@ int main(){
     int row,col,len;
     int m,n,k,x;
     ElemType elem;
-    // OLNode *p = NULL;
     OLink p = NULL;
 
     printf( "Enter a Number of rows: ");
