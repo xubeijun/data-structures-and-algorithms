@@ -10,7 +10,7 @@
 --      | ----------
  顺序存储结构的实现 [维基百科](https://en.wikipedia.org/wiki/Sequential_access) [百度百科](https://baike.baidu.com/item/%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/1347176) | [sequential-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-storage-structure.c)
  链式存储结构的实现 - 双向链表 [维基百科](https://zh.wikipedia.org/wiki/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/4921270) | [linked-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/linked-storage-structure.c)
- 链式存储结构的实现 - 十字链表 [维基百科](https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) | [orthogonal-list-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/orthogonal-list-storage-structure.c)
+ 链式存储结构的实现 - 十字链表 [维基百科](https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/orthogonal-lists-of-sparse-matrix.c)
 
 
 ## [动态规划问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/dynamic-programming)
