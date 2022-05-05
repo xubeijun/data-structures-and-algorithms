@@ -329,7 +329,6 @@ int length(GList L){
  */
 int depth(GList L){
     int dep,max;
-    GList p;
 
     // 空表
     if(!L){
@@ -389,6 +388,8 @@ bool delete(GList *L, GList *x){
     *L        = (*L)->ptr.tp;
 
     M->ptr.tp = NULL;
+
+    buildNode(x);
     copyGList(M, x);
 
     free(M);
@@ -575,7 +576,6 @@ int main(){
     bool f;
     int len, dep, x;
     GListStr str, s1 = "(m,n)";
-    AtomType elem;
     GList L, M, N, H, T;
 
     printf( "Enter Generalized List: ");
@@ -613,8 +613,12 @@ int main(){
     f = delete(&L, &N);
     printf("operation - delete \n it is %s \n\n", isValid(f));
 
-    printf("operation - traverse delete Node \n\n");
-    traverse(N, BRACKET);
+    if(f){
+        printf("operation - traverse delete Node \n\n");
+        traverse(N, BRACKET);
+        destroy(&N);
+    }
+    
 
     printf("operation - traverse after delete \n\n");
     traverse(L, BRACKET);
@@ -625,6 +629,7 @@ int main(){
     if(f){
         printf("operation - traverse after getHead \n\n");
         traverse(H, BRACKET);
+        destroy(&H);
     }
 
     f = getTail(L, &T);
@@ -633,6 +638,7 @@ int main(){
     if(f){
         printf("operation - traverse after getTail \n\n");
         traverse(T, BRACKET);
+        destroy(&T);
     }
 
     printf("operation - traverse origin GList atom \n\n");
