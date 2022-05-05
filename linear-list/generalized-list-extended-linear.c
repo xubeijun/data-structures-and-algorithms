@@ -362,8 +362,16 @@ bool delete(GList *L, GList *x){
  * @return bool [返回是否完成标识，操作成功则为true，否则为false。]
  */
 bool getHead(GList L, GList *x){
+    bool f;
+
     if(!L){
         printf("L does not exist. \n");
+        return false;
+    }
+
+    f = init(x);
+
+    if(!f){
         return false;
     }
 
@@ -382,8 +390,16 @@ bool getHead(GList L, GList *x){
  * @return bool [返回是否完成标识，操作成功则为true，否则为false。]
  */
 bool getTail(GList L, GList *x){
+    bool f;
+
     if(!L){
         printf("L does not exist. \n");
+        return false;
+    }
+
+    f = init(x);
+
+    if(!f){
         return false;
     }
 
@@ -532,7 +548,6 @@ int main(){
     bool f;
     int len, dep, x;
     GListStr str, s1 = "(m,n)";
-    AtomType elem;
     GList L, M, N, H, T;
 
     printf( "Enter Generalized List: ");
@@ -565,30 +580,38 @@ int main(){
     f = insert(&L, M);
     printf("operation - insert \n it is %s \n\n", isValid(f));
     
-    printf("operation - traverse all element with bracket which is after insert \n\n");
+    printf("operation - traverse after insert \n\n");
     traverse(L, BRACKET);
 
-    init(&N);
     f = delete(&L, &N);
     printf("operation - delete \n it is %s \n\n", isValid(f));
 
-    printf("operation - traverse all element with bracket which is after delete \n\n");
+    if(f){
+        printf("operation - traverse delete Node \n\n");
+        traverse(N, BRACKET);
+        destroy(&N);
+    }
+
+    printf("operation - traverse after delete \n\n");
     traverse(L, BRACKET);
     
-    init(&H);
     f = getHead(L, &H);
     printf("operation - getHead \n it is %s \n\n", isValid(f));
 
-    printf("operation - traverse after getHead \n\n");
-    traverse(H, BRACKET);
+    if(f){
+        printf("operation - traverse after getHead \n\n");
+        traverse(H, BRACKET);
+        destroy(&H);
+    }
 
-    init(&T);
     f = getTail(L, &T);
     printf("operation - getTail \n it is %s \n\n", isValid(f));
 
-    printf("operation - traverse after getTail \n\n");
-    traverse(T, BRACKET);
-
+    if(f){
+        printf("operation - traverse after getTail \n\n");
+        traverse(T, BRACKET);
+        destroy(&T);
+    }
 
     printf("operation - traverse origin GList atom \n\n");
     traverse(L, ELEMENT);

@@ -618,7 +618,6 @@ int main(){
         traverse(N, BRACKET);
         destroy(&N);
     }
-    
 
     printf("operation - traverse after delete \n\n");
     traverse(L, BRACKET);
