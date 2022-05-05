@@ -28,7 +28,7 @@ typedef struct DblNode{
 
 /**
  * [init 初始化双向链表L]
- * @param  L [指向链表L指针的指针]
+ * @param  L [指向链表L的二级指针]
  * @return bool [返回是否完成标识，操作成功则为true，否则为false。]
  */
 bool init(DblList *L){
