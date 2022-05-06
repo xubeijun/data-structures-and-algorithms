@@ -36,9 +36,6 @@ E=(a, E)是一个递归的表。D=(( ),(e),(a,(b,c,d)))是多层次的广义表�
 // 输出类型 ELEMENT=0:元素, BRACKET=1:括号
 typedef enum {ELEMENT, BRACKET} OutTag;
 
-// 复制类型 HEAD=0:表头, TAIL=1:表尾
-typedef enum {HEAD, TAIL} CopyTag;
-
 // 节点类型 ATOM=0:原子，LIST=1:子表
 typedef enum {ATOM, LIST} ElemTag;
 
