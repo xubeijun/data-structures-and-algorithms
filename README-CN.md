@@ -13,6 +13,7 @@
  链式存储结构的实现 - 十字链表 [维基百科](https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/orthogonal-lists-of-sparse-matrix.c)
  头尾链表的实现 - 广义表 [维基百科](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B9%89%E8%A1%A8#%E5%A4%B4%E5%B0%BE%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E8%A1%A8%E7%A4%BA) [百度百科](https://baike.baidu.com/item/%E5%B9%BF%E4%B9%89%E8%A1%A8) | [generalized-list-head-and-tail.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/generalized-list-head-and-tail.c)
  扩展线性链表的实现 - 广义表 [维基百科](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B9%89%E8%A1%A8#%E6%89%A9%E5%B1%95%E7%BA%BF%E6%80%A7%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E8%A1%A8%E7%A4%BA) [百度百科](https://baike.baidu.com/item/%E5%B9%BF%E4%B9%89%E8%A1%A8) | [generalized-list-extended-linear.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/generalized-list-extended-linear.c)
+ 堆栈的顺序存储实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88) [百度百科](https://baike.baidu.com/item/%E5%A0%86%E6%A0%88/1682032) | [sequential-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-stack.c)
 
 
 ## [动态规划问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/dynamic-programming)
