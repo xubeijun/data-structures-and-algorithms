@@ -124,7 +124,7 @@ void destroy(SqStack *S){
 
 /**
  * [traverse 遍历输出堆栈所有元素值]
- * @param L [线性表L指针]
+ * @param S [堆栈指针]
  */
 void traverse(SqStack S){
     printf("operation - traverse start \n\n");
