@@ -82,7 +82,6 @@ bool isEmpty(LStack S){
     }
 }
 
-
 /**
  * [clear 清空堆栈]
  * @param S [堆栈指针]
