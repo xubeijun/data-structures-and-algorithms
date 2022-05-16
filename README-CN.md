@@ -1,34 +1,39 @@
 [English](README.md) | 简体中文
 
 <h1 align="center">data-structures-and-algorithms</h1>
-数据结构及算法。
+
+## 数据结构
+
+目录 | 名称 | 示例 | 备注
+-- | -- | -- | --
+第 1 章 | [线性表](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/linear-list) |  | [线性表 - 维基百科](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8)
+第 1.1 节 | 线性表的顺序存储结构 | [sequential-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-storage-structure.c) | 
+第 1.2 节 | 线性表的链式存储结构 | [linked-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/linked-storage-structure.c) | 双向链表
+第 2 章 | [堆栈](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/stack) |  | [堆栈 - 维基百科](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88)
+第 2.1 节 | 堆栈的顺序存储实现 | [sequential-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/stack/sequential-stack.c) | 
+第 2.2 节 | 堆栈的链式存储实现 | [linked-list-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/stack/linked-list-stack.c) | 
+第 3 章 | [队列](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/queue) |  | 
+第 4 章 | [串](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/string) |  | 
+第 5 章 | [数组](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/array) |  | 
+第 5.1 节 | 稀松矩阵的十字链表实现 | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/array/orthogonal-lists-of-sparse-matrix.c) | [十字链表 - 百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8)
+第 5.2 节 | 广义表的头尾链表实现 | [generalized-list-head-and-tail.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/array/generalized-list-head-and-tail.c) | [广义表 - 维基百科](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B9%89%E8%A1%A8)
+第 5.3 节 | 广义表的扩展线性链表实现 | [generalized-list-extended-linear.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/array/generalized-list-extended-linear.c) | 
+第 6 章 | [树](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/tree) |  | 
+第 7 章 | [图](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/grabh) |  | 
+第 8 章 | [排序](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/sort) |  | 
+第 9 章 | [查找](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/search) |  | 
 
 
-## [线性表问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/linear-list)
+## 算法
 
-问题  | 解决
---      | ----------
- 线性表的顺序实现 [维基百科](https://en.wikipedia.org/wiki/Sequential_access) [百度百科](https://baike.baidu.com/item/%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/1347176) | [sequential-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-storage-structure.c)
- 堆栈的双向链表实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/4921270) | [linked-storage-structure.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/linked-storage-structure.c)
- 十字链表的链式实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) [百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8) | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/orthogonal-lists-of-sparse-matrix.c)
- 广义表的头尾链表实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B9%89%E8%A1%A8#%E5%A4%B4%E5%B0%BE%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E8%A1%A8%E7%A4%BA) [百度百科](https://baike.baidu.com/item/%E5%B9%BF%E4%B9%89%E8%A1%A8) | [generalized-list-head-and-tail.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/generalized-list-head-and-tail.c)
- 广义表的扩展线性链表实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B9%89%E8%A1%A8#%E6%89%A9%E5%B1%95%E7%BA%BF%E6%80%A7%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E8%A1%A8%E7%A4%BA) [百度百科](https://baike.baidu.com/item/%E5%B9%BF%E4%B9%89%E8%A1%A8) | [generalized-list-extended-linear.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/generalized-list-extended-linear.c)
- 堆栈的顺序实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88) [百度百科](https://baike.baidu.com/item/%E5%A0%86%E6%A0%88/1682032) | [sequential-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/sequential-stack.c)
- 堆栈的链式实现 [维基百科](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88) [百度百科](https://baike.baidu.com/item/%E5%A0%86%E6%A0%88/1682032) | [linked-list-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/linear-list/linked-list-stack.c)
+序列 | 问题 | 解决 | 备注
+-- | -- | -- | --
+1 | [动态规划问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/dynamic-programming) |  | 
+1.1 | 最大子数列问题 | [maximum-subarray-problem.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/dynamic-programming/maximum-subarray-problem.c) | [最大子数列 - 维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+1.2 | 01-复杂度2 最大子列和问题 | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c) | 
+2 | [排序和搜索问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search) |  | 
+2.1 | 二分查找首次出现 | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search/first-appearance-binary-search.c) | [二分查找 - 维基百科](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
-
-## [动态规划问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/dynamic-programming)
-
-问题  | 解决
---      | ----------
- 最大子数列问题 [维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [百度百科](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [maximum-subarray-problem.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/maximum-subarray-problem.c)
- 01-复杂度2 最大子列和问题 [维基百科](https://en.wikipedia.org/wiki/Maximum_subarray_problem) [百度百科](https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/22828059) | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c)
-
-## [排序和搜索问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/search)
-
-Problem  | Solution
---      | ----------
- 二分查找首次出现 [wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) [baike](https://baike.baidu.com/item/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/10628618) | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/search/first-appearance-binary-search.c)
 
 ## 关注
 关注同名[微博](https://weibo.com/xubeijun)、公众号、[哔哩哔哩](https://space.bilibili.com/490987374/)**续杯君**，获得更多资讯。
