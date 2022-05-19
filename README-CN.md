@@ -33,6 +33,8 @@
 　　1.2 | 01-复杂度2 最大子列和问题 | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c) | 
 2 | [排序和搜索问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search) |  | 
 　　2.1 | 二分查找首次出现 | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search/first-appearance-binary-search.c) | [二分查找 - 维基百科](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+3 | [堆栈问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
+　　3.1 | 表达式计算 中缀转换为后缀 | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [逆波兰表示法 - 维基百科](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 
 ## 关注

@@ -33,6 +33,8 @@ Sequence | Problems | Solution | Remarks
 　　1.2 | 01-complexity Maximum subsequence sum | [01-complexity-2-maximum-subsequence-sum.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/dynamic-programming/01-complexity-2-maximum-subsequence-sum.c) | 
 2 | [Sort and Search Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search) |  | 
 　　2.1 | First appearance binary search | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search/first-appearance-binary-search.c) | [Binary search - wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+3 | [Stack Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
+　　3.1 | Expression evaluation, Convert an infix expression to a postfix expression. | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [Reverse Polish notation - wiki](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 
 ## Follow me
