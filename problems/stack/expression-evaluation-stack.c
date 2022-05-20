@@ -21,6 +21,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+#define MAXSIZE 255
+
 // 操作数类型
 typedef double OpdType;
 
@@ -78,7 +80,7 @@ void traverse(IRStack S);
 void reverseStack(IRStack *S);
 
 // 获取输入字符串
-char * getInput();
+void getInput(CharPtr *exp);
 
 // 获取中缀表达式
 bool getInfix(IRStack *S, char *str);
@@ -256,21 +258,24 @@ void reverseStack(IRStack *S){
 
 /**
  * [getInput 获取字符串]
- * @param  str [字符串]
- * @return bool [是否成功]
+ * @param  exp [二级指针字符串]
+ * 
  */
-char * getInput(){
-    int x;
-    CharPtr exp;
+void getInput(CharPtr *exp){
+    char *result;
 
     printf( "Enter expression string and which is terminated by an equals sign: \n");
-    x = scanf("%s", exp);
-    if(x!=1){
+
+    result = fgets(*exp, MAXSIZE, stdin);
+    if(result == NULL){
         printf("stdin format is error \n");
         exit(-1);
     }
+
+    // '\0' ASCII is 0
+    (*exp)[strcspn(*exp, "\r\n")] = 0;
+
     printf( "Enter expression string is end. \n\n");
-    return exp;
 }
 
 /**
@@ -293,14 +298,14 @@ bool getInfix(IRStack *S, CharPtr str){
         return false;
     }
 
-    char dest[strLen+1];
+    char dest[strLen];
     strncpy(dest, str, strLen);
     dest[strLen] = '\0';
 
     CharPtr sub = dest;
 
-    char hpSub[strLen+1];
-    char tpSub[strLen+1];
+    char hpSub[strLen];
+    char tpSub[strLen];
 
     CharPtr hp = hpSub;
     CharPtr tp = tpSub;
@@ -406,7 +411,6 @@ void strsub(CharPtr str, CharPtr *hp,  CharPtr *tp, NodeTag *tag){
  */
 bool converter(IRStack S, IRStack *RPN){
     bool f;
-    NodeTag tag;
     IRStack OPR;
     IRList P,N;
 
@@ -711,12 +715,13 @@ char * isValid(bool flag){
 
 int main(){
     bool f;
+    char buf[MAXSIZE];
+    CharPtr exp = buf;
     OpdType x;
-    CharPtr exp;
     IRStack infix;
     IRStack reverse;
 
-    exp = getInput();
+    getInput(&exp);
     printf("operation - getInput \n the expression string is: %s \n\n", exp);
 
     f = getInfix(&infix, exp);
