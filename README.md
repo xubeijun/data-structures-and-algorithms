@@ -13,6 +13,7 @@ Sequence | Name | Example | Remarks
 　　2.1 | Sequential implementation of stacks | [sequential-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/stack/sequential-stack.c) | 
 　　2.2 | Linked List implementation of stacks | [linked-list-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/stack/linked-list-stack.c) | 
 3 | [Queue](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/queue) |  | 
+　　3.1 | Sequential implementation of queue | [circular-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/queue/circular-queue.c) | Circular queue
 4 | [String](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/string) |  | 
 5 | [Array](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/array) |  | 
 　　5.1 | Orthogonal linked list implementation of sparse matrix | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/array/orthogonal-lists-of-sparse-matrix.c) | [orthogonal linked list - baike](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8)
