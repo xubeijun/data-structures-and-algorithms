@@ -34,7 +34,7 @@
 2 | [排序和搜索问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search) |  | 
 　　2.1 | 二分查找首次出现 | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search/first-appearance-binary-search.c) | [二分查找 - 维基百科](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 3 | [堆栈问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
-　　3.1 | 表达式计算 中缀转换为后缀 | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [逆波兰表示法 - 维基百科](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
+　　3.1 | 四则运算表达式 中缀转换为后缀 | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [逆波兰表示法 - 维基百科](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 
 ## 关注
