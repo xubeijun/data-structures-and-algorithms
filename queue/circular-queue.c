@@ -53,10 +53,10 @@ void traverse(Queue Q);
 // 在队列的队头，返回元素
 bool get(Queue Q, ElemType *x);
 
-// 在队列的队头，插入元素
+// 在队列的队尾，插入元素
 bool insert(Queue *Q, ElemType x);
 
-// 在队列的队尾，删除元素
+// 在队列的队头，删除元素
 bool delete(Queue *Q, ElemType *x);
 
 // 返回队列的长度
@@ -165,7 +165,7 @@ bool get(Queue Q, ElemType *x){
 }
 
 /**
- * [insert 在队列的队头，插入元素]
+ * [insert 在队列的队尾，插入元素]
  * @param  Q [队列二级指针]
  * @param  x [元素]
  * @return bool [是否成功]
@@ -181,7 +181,7 @@ bool insert(Queue *Q, ElemType x){
 }
 
 /**
- * [delete 在队列的队尾，删除元素]
+ * [delete 在队列的队头，删除元素]
  * @param  Q [队列二级指针]
  * @param  x [元素]
  * @return bool [是否成功]
@@ -197,7 +197,7 @@ bool delete(Queue *Q, ElemType *x){
 }
 
 /**
- * [length 返回堆栈的长度]
+ * [length 返回队列的长度]
  * @param  Q [队列指针]
  * @return int [返回堆栈的长度]
  */
@@ -235,7 +235,7 @@ int main(){
     printf("operation - isEmpty \n it is %s \n\n", isValid(f));
 
     // insert full element, n = MAXSIZE-1
-    for (int i = 10; i < MAXSIZE-1; ++i){
+    for (int i = 0; i < MAXSIZE-1; ++i){
         x = i;
         f = insert(&Q, x);
         printf("operation - insert \n it is %s x is %d \n\n", isValid(f), x);
@@ -260,7 +260,7 @@ int main(){
     printf("operation - traverse after delete is end \n\n");
 
     // insert element, n = MAXSIZE-3
-    for (int i = 20; i < MAXSIZE-3; ++i){
+    for (int i = 0; i < MAXSIZE-3; ++i){
         x = i;
         f = insert(&Q, x);
         printf("operation - insert \n it is %s x is %d \n\n", isValid(f), x);

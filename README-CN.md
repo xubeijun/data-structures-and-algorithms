@@ -14,6 +14,7 @@
 　　2.2 | 堆栈的链式存储实现 | [linked-list-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/stack/linked-list-stack.c) | 
 3 | [队列](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/queue) |  | 
 　　3.1 | 队列的顺序存储实现 | [circular-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/queue/circular-queue.c) | 循环队列
+　　3.2 | 队列的链式存储实现 | [linked-list-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/queue/linked-list-queue.c) | 单链队列
 4 | [串](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/string) |  | 
 5 | [数组](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/array) |  | 
 　　5.1 | 稀松矩阵的十字链表实现 | [orthogonal-lists-of-sparse-matrix.c](https://github.com/xubeijun/data-structures-and-algorithms/blob/main/array/orthogonal-lists-of-sparse-matrix.c) | [十字链表 - 百度百科](https://baike.baidu.com/item/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8)
