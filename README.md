@@ -39,6 +39,7 @@ Sequence | Problems | Solution | Remarks
 　　3.1 | Arithmetic expressions, Convert an infix expression to a postfix expression. | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [Reverse Polish notation - wiki](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 4 | [Linear List Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　4.1 | Polynomial Addition and Multiplication | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](polynomial-addition-and-multiplication.c)
+　　4.2 | Reversing Linked List | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](reversing-linked-list.c)
 
 
 ## Follow me
