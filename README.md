@@ -40,6 +40,7 @@ Sequence | Problems | Solution | Remarks
 4 | [Linear List Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　4.1 | Polynomial Addition and Multiplication | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](polynomial-addition-and-multiplication.c)
 　　4.2 | Reversing Linked List | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](reversing-linked-list.c)
+　　4.3 | Possible pop sequence of the stacks | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | [todo](reversing-linked-list.c)
 
 
 ## Follow me
