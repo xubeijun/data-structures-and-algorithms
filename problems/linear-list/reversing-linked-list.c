@@ -38,5 +38,5 @@ Sample Output:
 68237 6 -1
 
 参考
-[02-线性结构2 一元多项式的乘法与加法运算 - 掘金](https://juejin.cn/post/7014325372502147109)
+[PAT 02-线性结构3 Reversing Linked List - 北落师门](https://zhuanlan.zhihu.com/p/60109182)
 */
