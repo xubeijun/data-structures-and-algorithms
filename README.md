@@ -37,6 +37,8 @@ Sequence | Problems | Solution | Remarks
 　　2.1 | First appearance binary search | [first-appearance-binary-search.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/sort-and-search/first-appearance-binary-search.c) | [Binary search - wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 3 | [Stack Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　3.1 | Arithmetic expressions, Convert an infix expression to a postfix expression. | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [Reverse Polish notation - wiki](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
+4 | [Linear List Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
+　　4.1 | Polynomial Addition and Multiplication | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](polynomial-addition-and-multiplication.c)
 
 
 ## Follow me
