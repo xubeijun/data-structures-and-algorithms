@@ -46,6 +46,7 @@ Sequence | Problems | Solution | Remarks
 　　5.2 | List all the leaves | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
 　　5.3 | Tree traversals again - post order traversal | [tree-traversals-again.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/tree-traversals-again.c) | [todo](tree-traversals-again.c)
 　　5.4 | The same binary search tree | [same-binary-search-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/same-binary-search-tree.c) | [todo](same-binary-search-tree.c)
+　　5.5 | Root of AVL Tree | [root-of-avl-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/root-of-avl-tree.c) | [todo](root-of-avl-tree.c)
 
 
 ## Follow me
