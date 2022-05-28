@@ -44,6 +44,7 @@
 5 | [树问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
 　　5.1 | 树的同构 | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](isomorphism-of-tree.c)
 　　5.2 | 遍历所有叶子 | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
+　　5.3 | 树的后序遍历 | [tree-traversals-again.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/tree-traversals-again.c) | [todo](tree-traversals-again.c)
 
 
 ## 关注
