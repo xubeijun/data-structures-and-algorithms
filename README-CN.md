@@ -39,10 +39,11 @@
 　　3.1 | 四则运算表达式 中缀转换为后缀 | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [逆波兰表示法 - 维基百科](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 4 | [线性问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　4.1 | 一元多项式的乘法与加法运算 | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | [todo](polynomial-addition-and-multiplication.c)
-　　4.2 | 反转链表 | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list.c) | [todo](polynomial-addition-and-multiplication.c)
-　　4.3 | 堆栈的可能弹出序列 | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | [todo](reversing-linked-list.c)
+　　4.2 | 反转链表 | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list.c) | [todo](reversing-linked-list.c)
+　　4.3 | 堆栈的可能弹出序列 | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | [todo](possible-pop-sequence.c)
 5 | [树问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
-　　5.1 | 树的同构 | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](polynomial-addition-and-multiplication.c)
+　　5.1 | 树的同构 | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](isomorphism-of-tree.c)
+　　5.2 | 遍历所有叶子 | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
 
 
 ## 关注
