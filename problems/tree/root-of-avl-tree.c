@@ -20,9 +20,12 @@ Sample Input 1:
 
 5
 88 70 61 96 120
+
 Sample Output 1:
+
 70
 Sample Input 2:
+
 7
 88 70 61 96 120 90 65
 
