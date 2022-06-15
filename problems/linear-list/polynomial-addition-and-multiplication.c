@@ -19,7 +19,7 @@
 5 20 -4 4 -5 2 9 1 -2 0
 
 《数据结构-入门指南》 - xubeijun/续杯君
-[第5节 应用实例：两个一元多项式的乘积与和](https://www.xubeijun.com/column/data-structures/data-structures-start-guide/chapter-003/section-005/polynomial-in-one-variable)
+[第5节 应用实例：两个一元多项式的乘积与和](https://www.xubeijun.com/column/data-structures/data-structures-start-guide/chapter-003/section-005/polynomial-addition-and-multiplication)
 
 [02-线性结构2 一元多项式的乘法与加法运算 - 掘金](https://juejin.cn/post/7014325372502147109)
 */
