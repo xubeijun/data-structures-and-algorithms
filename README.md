@@ -39,7 +39,7 @@ Sequence | Problems | Solution | Remarks
 　　3.1 | Arithmetic expressions, Convert an infix expression to a postfix expression. | [expression-evaluation-stack.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack/expression-evaluation-stack.c) | [Reverse Polish notation - wiki](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 4 | [Linear List Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　4.1 | Polynomial Addition and Multiplication | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | 
-　　4.2 | Reversing Linked List | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | 
+　　4.2 | Reversing Linked List | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list.c) <br> [reversing-linked-list-stack-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list-stack-queue.c) | 
 　　4.3 | Possible pop sequence of the stacks | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | [todo](possible-pop-sequence.c)
 5 | [Tree Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
 　　5.1 | Isomorphism of tree | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](isomorphism-of-tree.c)
