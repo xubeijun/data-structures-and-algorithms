@@ -40,7 +40,7 @@
 4 | [线性问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/stack) |  | 
 　　4.1 | 一元多项式的乘法与加法运算 | [polynomial-addition-and-multiplication.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/polynomial-addition-and-multiplication.c) | 
 　　4.2 | 反转链表 | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list.c) <br> [reversing-linked-list-stack-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list-stack-queue.c) | 
-　　4.3 | 堆栈的可能弹出序列 | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | [todo](possible-pop-sequence.c)
+　　4.3 | 堆栈的可能弹出序列 | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | 
 5 | [树问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
 　　5.1 | 树的同构 | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](isomorphism-of-tree.c)
 　　5.2 | 遍历所有叶子 | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
