@@ -66,9 +66,6 @@ A 1 4
 输出样例2:
 
 No
-
-参考
-[PAT-03-树1 树的同构 - 锡锡你咯](https://blog.nowcoder.net/n/9da04cca93ee4da8b99142bbb7361de0)
 */
 
 #include <stdio.h>
