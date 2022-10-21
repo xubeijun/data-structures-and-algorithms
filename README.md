@@ -42,7 +42,7 @@ Sequence | Problems | Solution | Remarks
 　　4.2 | Reversing Linked List | [reversing-linked-list.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list.c) <br> [reversing-linked-list-stack-queue.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/reversing-linked-list-stack-queue.c) | 
 　　4.3 | Possible pop sequence of the stacks | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | 
 5 | [Tree Problems](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
-　　5.1 | Isomorphism of tree | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | [todo](isomorphism-of-tree.c)
+　　5.1 | Isomorphism of tree | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | 
 　　5.2 | List all the leaves | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
 　　5.3 | Tree traversals again - post order traversal | [tree-traversals-again.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/tree-traversals-again.c) | [todo](tree-traversals-again.c)
 　　5.4 | The same binary search tree | [same-binary-search-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/same-binary-search-tree.c) | [todo](same-binary-search-tree.c)
