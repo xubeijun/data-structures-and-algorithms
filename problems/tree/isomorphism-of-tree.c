@@ -79,7 +79,7 @@ No
 #define Null -1
 
 struct TreeNode{
-    ElementType element;
+    ElementType data;
     Tree left;
     Tree right;
 } T1[MaxSize], T2[MaxSize];
@@ -95,7 +95,7 @@ Tree buildTree(struct TreeNode T[]){
     }
 
     for(int i = 0; i < N; i++){
-        x = scanf("\n%c %c %c", &T[i].element, &cLeft, &cRight);
+        x = scanf("\n%c %c %c", &T[i].data, &cLeft, &cRight);
         if(x != 3){
             printf("input is fail \n");
             exit(-1);
@@ -133,13 +133,13 @@ bool isomorphism(Tree R1, Tree R2){
     }else if((R1 == Null && R2 != Null) || (R1 != Null && R2 == Null)){
         // 其中一棵树为空
         return false;
-    }else if(T1[R1].element != T2[R2].element){
+    }else if(T1[R1].data != T2[R2].data){
         // 两棵树的根节点数据不一致
         return false;
     }else if(T1[R1].left == Null && T2[R2].left == Null){
         // 两棵树的左子树为空
         return isomorphism(T1[R1].right, T2[R2].right);
-    }else if((T1[R1].left != Null && T2[R2].left != Null) && (T1[T1[R1].left].element == T2[T2[R2].left].element)){
+    }else if((T1[R1].left != Null && T2[R2].left != Null) && (T1[T1[R1].left].data == T2[T2[R2].left].data)){
         // 两棵树的左子树不为空，且不需要交换左右子树
         return (isomorphism(T1[R1].left, T2[R2].left) && isomorphism(T1[R1].right, T2[R2].right));
     }else{

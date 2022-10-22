@@ -43,7 +43,7 @@
 　　4.3 | 堆栈的可能弹出序列 | [possible-pop-sequence.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/linear-list/possible-pop-sequence.c) | 
 5 | [树问题](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree) |  | 
 　　5.1 | 树的同构 | [isomorphism-of-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/isomorphism-of-tree.c) | 
-　　5.2 | 遍历所有叶子 | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | [todo](list-leaves.c)
+　　5.2 | 遍历所有叶子 | [list-leaves.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/list-leaves.c) | 
 　　5.3 | 树的后序遍历 | [tree-traversals-again.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/tree-traversals-again.c) | [todo](tree-traversals-again.c)
 　　5.4 | 是否同一棵二叉搜索树 | [same-binary-search-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/same-binary-search-tree.c) | [todo](same-binary-search-tree.c)
 　　5.5 | AVL树(高度平衡树)的根 | [root-of-avl-tree.c](https://github.com/xubeijun/data-structures-and-algorithms/tree/main/problems/tree/root-of-avl-tree.c) | [todo](root-of-avl-tree.c)
