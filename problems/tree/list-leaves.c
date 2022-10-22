@@ -27,7 +27,6 @@ Sample Output:
 
 4 1 5
 
-[03-树2 List Leaves - 语阑gz](https://zhuanlan.zhihu.com/p/470100753)
 */
 
 #include <stdio.h>
